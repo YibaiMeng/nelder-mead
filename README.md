@@ -42,3 +42,5 @@ Arguments:
 - `tol_fun`, `tol_x`, `max_iter`, `max_fun_evals`: parameters for the termination of the process.
 
 See the paper for a detailed description of the algorithm, including the termination criteria.
+
+This project is released into the Public Domain.
