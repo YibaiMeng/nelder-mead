@@ -18,9 +18,9 @@ The output is
 ```
 1 1
 ```
-See `example.cpp` for a more detailed example.
+C++11 is required. See `example.cpp` for a more detailed example.
 
-This is the detail prototype of the functions:
+This is the detailed prototype of the function:
 ```cpp
 template <typename Function, typename T = double>
 std::vector<T> find_min(const Function &func, std::vector<T>& initial_point,
@@ -37,7 +37,7 @@ Types:
 Arguments:
 - `func`:  the objective function to optimize
 - `initial_point`: the starting point of the process.
-- `adaptive`: whether use the adaptive parameters as described in "Implementing the Nelder-Mead simplex algorithm with adaptive parameters"
+- `adaptive`: whether to use the adaptive parameters as described in "Implementing the Nelder-Mead simplex algorithm with adaptive parameters"
 - `initial_simplex`: set this when you don't wish to use the default generation method. It must have dimension + 1 elements. When setting this element, `initial_point` will be ignored.
 - `tol_fun`, `tol_x`, `max_iter`, `max_fun_evals`: parameters for the termination of the process.
 
