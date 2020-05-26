@@ -1,0 +1,23 @@
+# Formatting rules for clang-format
+# See documentation:
+# https://clang.llvm.org/docs/ClangFormatStyleOptions.html
+---
+BasedOnStyle: llvm
+IndentWidth: 4
+---
+Language: Cpp
+AlignConsecutiveAssignments: true
+AlignConsecutiveDeclarations: true
+AlignConsecutiveMacros: true
+AlignEscapedNewlines: true
+AlignOperands: true
+AlignTrailingComments: true
+AllowShortBlocksOnASingleLine: Empty
+AllowShortFunctionsOnASingleLine: Empty
+NamespaceIndentation : Inner
+ReflowComments: true
+SortUsingDeclarations: true
+SpaceBeforeRangeBasedForLoopColon: true
+SpacesBeforeTrailingComments: 1 
+---
+
